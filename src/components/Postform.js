@@ -8,6 +8,20 @@ class Postform extends Component {
     return (
       <div>
         <h1>Add Post</h1>
+        <form>
+          <div>
+            <label>Title:</label>
+            <br></br>
+            <input name="title" type="text" />
+          </div>
+          <div>
+            <label>Body:</label>
+            <br></br>
+            <textarea name="body" />
+          </div>
+          <br></br>
+          <button type="submit">Submit</button>
+        </form>
       </div>
     );
   }
